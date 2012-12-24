@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'karuta' target in the 'karuta' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

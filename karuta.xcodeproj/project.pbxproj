@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50240FB4168895B60001A2F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50240FB3168895B60001A2F7 /* Cocoa.framework */; };
+		50240FB6168895B60001A2F7 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50240FB5168895B60001A2F7 /* MacRuby.framework */; };
+		50240FBF168895B60001A2F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50240FBD168895B60001A2F7 /* InfoPlist.strings */; };
+		50240FC1168895B60001A2F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50240FC0168895B60001A2F7 /* main.m */; };
+		50240FC6168895B60001A2F7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50240FC4168895B60001A2F7 /* MainMenu.xib */; };
+		50240FC9168895B60001A2F7 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 50240FC8168895B60001A2F7 /* rb_main.rb */; };
+		50240FCB168895B60001A2F7 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 50240FCA168895B60001A2F7 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50240FB8168895B60001A2F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50240FA6168895B60001A2F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50240FAE168895B60001A2F7;
+			remoteInfo = karuta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50240FAF168895B60001A2F7 /* karuta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = karuta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50240FB3168895B60001A2F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		50240FB5168895B60001A2F7 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		50240FBC168895B60001A2F7 /* karuta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "karuta-Info.plist"; sourceTree = "<group>"; };
+		50240FBE168895B60001A2F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50240FC0168895B60001A2F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50240FC2168895B60001A2F7 /* karuta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "karuta-Prefix.pch"; sourceTree = "<group>"; };
+		50240FC5168895B60001A2F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		50240FC8168895B60001A2F7 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		50240FCA168895B60001A2F7 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50240FAC168895B60001A2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50240FB4168895B60001A2F7 /* Cocoa.framework in Frameworks */,
+				50240FB6168895B60001A2F7 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50240FA4168895B60001A2F7 = {
+			isa = PBXGroup;
+			children = (
+				50240FBA168895B60001A2F7 /* karuta */,
+				50240FB2168895B60001A2F7 /* Frameworks */,
+				50240FB0168895B60001A2F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50240FB0168895B60001A2F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50240FAF168895B60001A2F7 /* karuta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50240FB2168895B60001A2F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50240FB3168895B60001A2F7 /* Cocoa.framework */,
+				50240FB5168895B60001A2F7 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50240FBA168895B60001A2F7 /* karuta */ = {
+			isa = PBXGroup;
+			children = (
+				50240FCA168895B60001A2F7 /* AppDelegate.rb */,
+				50240FC3168895B60001A2F7 /* Resources */,
+				50240FC7168895B60001A2F7 /* Other Sources */,
+				50240FBB168895B60001A2F7 /* Supporting Files */,
+			);
+			path = karuta;
+			sourceTree = "<group>";
+		};
+		50240FBB168895B60001A2F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50240FBC168895B60001A2F7 /* karuta-Info.plist */,
+				50240FBD168895B60001A2F7 /* InfoPlist.strings */,
+				50240FC0168895B60001A2F7 /* main.m */,
+				50240FC2168895B60001A2F7 /* karuta-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50240FC3168895B60001A2F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50240FC4168895B60001A2F7 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		50240FC7168895B60001A2F7 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				50240FC8168895B60001A2F7 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		50240FB7168895B60001A2F7 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 50240FD1168895B60001A2F7 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				50240FB9168895B60001A2F7 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		50240FAE168895B60001A2F7 /* karuta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50240FCE168895B60001A2F7 /* Build configuration list for PBXNativeTarget "karuta" */;
+			buildPhases = (
+				50240FAB168895B60001A2F7 /* Sources */,
+				50240FAC168895B60001A2F7 /* Frameworks */,
+				50240FAD168895B60001A2F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = karuta;
+			productName = karuta;
+			productReference = 50240FAF168895B60001A2F7 /* karuta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50240FA6168895B60001A2F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ryo Fujita";
+			};
+			buildConfigurationList = 50240FA9168895B60001A2F7 /* Build configuration list for PBXProject "karuta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50240FA4168895B60001A2F7;
+			productRefGroup = 50240FB0168895B60001A2F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50240FAE168895B60001A2F7 /* karuta */,
+				50240FB7168895B60001A2F7 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50240FAD168895B60001A2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50240FBF168895B60001A2F7 /* InfoPlist.strings in Resources */,
+				50240FC6168895B60001A2F7 /* MainMenu.xib in Resources */,
+				50240FC9168895B60001A2F7 /* rb_main.rb in Resources */,
+				50240FCB168895B60001A2F7 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50240FAB168895B60001A2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50240FC1168895B60001A2F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50240FB9168895B60001A2F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50240FAE168895B60001A2F7 /* karuta */;
+			targetProxy = 50240FB8168895B60001A2F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50240FBD168895B60001A2F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50240FBE168895B60001A2F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50240FC4168895B60001A2F7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50240FC5168895B60001A2F7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50240FCC168895B60001A2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		50240FCD168895B60001A2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		50240FCF168895B60001A2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "karuta/karuta-Prefix.pch";
+				INFOPLIST_FILE = "karuta/karuta-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50240FD0168895B60001A2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "karuta/karuta-Prefix.pch";
+				INFOPLIST_FILE = "karuta/karuta-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		50240FD2168895B60001A2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		50240FD3168895B60001A2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50240FA9168895B60001A2F7 /* Build configuration list for PBXProject "karuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50240FCC168895B60001A2F7 /* Debug */,
+				50240FCD168895B60001A2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50240FCE168895B60001A2F7 /* Build configuration list for PBXNativeTarget "karuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50240FCF168895B60001A2F7 /* Debug */,
+				50240FD0168895B60001A2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50240FD1168895B60001A2F7 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50240FD2168895B60001A2F7 /* Debug */,
+				50240FD3168895B60001A2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50240FA6168895B60001A2F7 /* Project object */;
+}
